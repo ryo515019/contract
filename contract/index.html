@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>雇用契約書</title>
+</head>
+
+<body>
+  <div class="contract-date">
+    <label for="year">令和</label>
+    <select class="year" name="year" id="year">
+      <option value=""></option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+    </select>
+    <label for="year">年</label>
+
+    <select class="month" name="month" id="month">
+      <option value=""></option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+    </select>
+    <label for="month">月</label>
+
+    <select class="day" name="day" id="day">
+      <option value=""></option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+      <option value="13">13</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+      <option value="16">16</option>
+      <option value="17">17</option>
+      <option value="18">18</option>
+      <option value="19">19</option>
+      <option value="20">20</option>
+      <option value="21">21</option>
+      <option value="22">22</option>
+      <option value="23">23</option>
+      <option value="24">24</option>
+      <option value="25">25</option>
+      <option value="26">26</option>
+      <option value="27">27</option>
+      <option value="28">28</option>
+      <option value="29">29</option>
+      <option value="30">30</option>
+      <option value="31">31</option>
+    </select>
+    <label for="day">日</label>
+  </div>
+
+  <h1>労働条件通知書兼雇用契約書</h1>
+
+  <a href="example-img.pdf" class="example_button">記載例</a>
+
+  <div class="numberName">
+    <label for="inputNumber">社員番号</label>:<input class="numberName" type="number" id="inputNumber"><br>
+    <label for="inputName">氏名</label>:<input class="numberName" type="text" id="inputName">
+  </div>
+
+  <p class="comment">次の労働条件によって雇用契約を締結します。</p>
+  <table class="contents">
+    <tr>
+      <td class="period-left" colspan="2"><label for="whether">雇用期間</label></td>
+      <td><label for="whether">期間の定め</label>
+        <select class="period" id="whether" name="whether">
+          <option value="yes"></option>
+          <option value="yes">あり</option>
+          <option value="no">なし</option>
+        </select>
+
+        （
+        <select class="kind" name="kind" id="kind">
+          <option value=""></option>
+          <option value="入社">入社</option>
+          <option value="転換">転換</option>
+        </select> <label for="kind">日:</label>
+
+        <label for="startYear">令和</label>
+        <select class="startYear" name="startYear" id="startYear">
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+        </select>
+        <label for="startYear">年</label>
+
+        <select class="startMonth" name="startMonth" id="startMonth">
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select>
+        <label for="startMonth">月</label>
+
+        <select class="startDay" name="startDay" id="startDay">
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+        </select>
+        <label for="startDay">日 <span class="while">~</span></label>
+        <label class="belowYear" for="endYear">令和</label>
+        <select class="endYear" name="endYear" id="endYear">
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+        </select>
+        <label for="endYear">年</label>
+
+        <select class="endMonth" name="endMonth" id="endMonth">
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select>
+        <label for="endMonth">月</label>
+
+        <select class="endDay" name="endDay" id="endDay">
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+        </select>
+        <label for="endDay">日）</label>
+      </td>
+    </tr>
+    <tr>
+      <td class="update-left" colspan="2"><label for="update">更新の有無</label></td>
+      <td>
+        <label for="update"><span class="update">契約の更新の有無:</span></label>
+        <select class="update" name="update" id="update">
+          <option value=""></option>
+          <option value="更新する場合がある">更新する場合がある</option>
+          <option value="契約の更新はしない">契約の更新はしない</option>
+          <option value="その他">その他</option>
+        </select><br>
+        契約の更新は次により判断する<br>
+        <input class="radio" type="radio" id="radio1" value="契約期間満了時の業務量"><label for="radio1">契約期間満了時の業務量</label>
+        <input class="radio" type="radio" id="radio2" value="勤務成績、勤務態度"><label for="radio2">勤務成績、勤務態度</label><br>
+        <input class="radio" type="radio" id="radio3" value="能力・会社の経営状況"><label class="radio3mgr" for="radio3">能力・会社の経営状況</label>
+        <input class="radio" type="radio" id="radio4" value="従事している業務の進捗状況"><label
+          for="radio4">従事している業務の進捗状況</label><br>
+        <input class="radio" type="radio" id="radio5" value="その他"><label for="radio5">その他</label>
+        (<input class="radioOther" type="text">)
+      </td>
+    </tr>
+    <tr>
+      <td class="trial-left" colspan="2"><label for="trial">試用期間</label></td>
+      <td><label for="trial">試用期間</label>
+        <select class="period" id="trial" name="whether">
+          <option value="yes"></option>
+          <option value="yes">あり</option>
+          <option value="no">なし</option>
+        </select>
+
+        （
+        <label for="startYear2">令和</label>
+        <select class="startYear" name="startYear" id="startYear2">
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+        </select>
+        <label for="startYear2">年</label>
+
+        <select class="startMonth" name="startMonth" id="startMonth2">
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select>
+        <label for="startMonth2">月</label>
+
+        <select class="startDay" name="startDay" id="startDay2">
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+        </select>
+        <label for="startDay2">日 <span class="while">~</span></label>
+
+        <label class="endYear" for="endYear2">令和</label>
+        <select class="endYear" name="endYear" id="endYear2">
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+        </select>
+        <label for="endYear2">年</label>
+
+        <select class="endMonth" name="endMonth" id="endMonth2">
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select>
+        <label for="endMonth2">月</label>
+
+        <select class="endDay" name="endDay" id="endDay2">
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+        </select>
+        <label for="endDay2">日</label>）
+      </td>
+    </tr>
+    <tr>
+      <td class="place-left" colspan="2"><label for="place">就業の場所</label></td>
+      <td>
+        <textarea name="place" id="place"></textarea>
+      </td>
+    </tr>
+    <tr>
+      <td class="job-left" colspan="2"><label for="job">仕事の内容</label></td>
+      <td><textarea name="place" id="job"></textarea></td>
+    </tr>
+    <tr>
+      <td class="workHour-left" colspan="2"><label for="startHour">就業時間</label></td>
+      <td>
+        <label class="startHour" for="startHour">始業</label>
+        <select class="startHour" name="startHour" id="startHour">
+          <option value=""></option>
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+        </select>
+        <label for="startHour">時</label>
+        <select class="startMinute" name="startMinute" id="startMinute">
+          <option value=""></option>
+          <option value="0">00</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+          <option value="32">32</option>
+          <option value="33">33</option>
+          <option value="34">34</option>
+          <option value="35">35</option>
+          <option value="36">36</option>
+          <option value="37">37</option>
+          <option value="38">38</option>
+          <option value="39">39</option>
+          <option value="40">40</option>
+          <option value="41">41</option>
+          <option value="42">42</option>
+          <option value="43">43</option>
+          <option value="44">44</option>
+          <option value="45">45</option>
+          <option value="46">46</option>
+          <option value="47">47</option>
+          <option value="48">48</option>
+          <option value="49">49</option>
+          <option value="50">50</option>
+          <option value="51">51</option>
+          <option value="52">52</option>
+          <option value="53">53</option>
+          <option value="54">54</option>
+          <option value="55">55</option>
+          <option value="56">56</option>
+          <option value="57">57</option>
+          <option value="58">58</option>
+          <option value="59">59</option>
+          <option value="60">60</option>
+        </select>
+        <label class="Minute" for="startMinute">分</label>
+
+        <label class="lastHour" for="lastHour">終業</label>
+        <select class="lastHour" name="lastHour" id="lastHour">
+          <option value=""></option>
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+        </select>
+        <label for="lastHour">時</label>
+        <select class="lastMinute" name="lastMinute" id="lastMinute">
+          <option value=""></option>
+          <option value="0">00</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+          <option value="32">32</option>
+          <option value="33">33</option>
+          <option value="34">34</option>
+          <option value="35">35</option>
+          <option value="36">36</option>
+          <option value="37">37</option>
+          <option value="38">38</option>
+          <option value="39">39</option>
+          <option value="40">40</option>
+          <option value="41">41</option>
+          <option value="42">42</option>
+          <option value="43">43</option>
+          <option value="44">44</option>
+          <option value="45">45</option>
+          <option value="46">46</option>
+          <option value="47">47</option>
+          <option value="48">48</option>
+          <option value="49">49</option>
+          <option value="50">50</option>
+          <option value="51">51</option>
+          <option value="52">52</option>
+          <option value="53">53</option>
+          <option value="54">54</option>
+          <option value="55">55</option>
+          <option value="56">56</option>
+          <option value="57">57</option>
+          <option value="58">58</option>
+          <option value="59">59</option>
+          <option value="60">60</option>
+        </select>
+        <label class="Minute" for="lastMinute">分</label>
+
+        <label class="lest" for="lest">休憩</label>
+        <select class="lest" name="lest" id="lest">
+          <option value=""></option>
+          <option value="0">00</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+          <option value="32">32</option>
+          <option value="33">33</option>
+          <option value="34">34</option>
+          <option value="35">35</option>
+          <option value="36">36</option>
+          <option value="37">37</option>
+          <option value="38">38</option>
+          <option value="39">39</option>
+          <option value="40">40</option>
+          <option value="41">41</option>
+          <option value="42">42</option>
+          <option value="43">43</option>
+          <option value="44">44</option>
+          <option value="45">45</option>
+          <option value="46">46</option>
+          <option value="47">47</option>
+          <option value="48">48</option>
+          <option value="49">49</option>
+          <option value="50">50</option>
+          <option value="51">51</option>
+          <option value="52">52</option>
+          <option value="53">53</option>
+          <option value="54">54</option>
+          <option value="55">55</option>
+          <option value="56">56</option>
+          <option value="57">57</option>
+          <option value="58">58</option>
+          <option value="59">59</option>
+          <option value="60">60</option>
+        </select>
+        <label for="lest">分</label>
+      </td>
+    </tr>
+    <tr>
+      <td class="over-left" colspan="2"><label for="over">所定時間外労働の有無</label></td>
+      <td>
+        <label class="over" for="over">所定時間外労働</label>
+        <select class="over" id="over" name="over">
+          <option value="yes"></option>
+          <option value="yes">あり</option>
+          <option value="no">なし</option>
+        </select><label for="over-times">（約</label>
+        <select class="over-times" name="over" id="over-times">
+
+          <option value=""></option>
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+          <option value="32">32</option>
+          <option value="33">33</option>
+          <option value="34">34</option>
+          <option value="35">35</option>
+          <option value="36">36</option>
+          <option value="37">37</option>
+          <option value="38">38</option>
+          <option value="39">39</option>
+          <option value="40">40</option>
+          <option value="41">41</option>
+          <option value="42">42</option>
+          <option value="43">43</option>
+          <option value="44">44</option>
+          <option value="45">45</option>
+        </select>
+        <label for="over-times">時間<span class="slash">/</span>月）</label><br>
+        <label class="offwork" for="offwork">休日労働</label>
+        <select class="offwork" id="offwork" name="offwork">
+          <option value="yes"></option>
+          <option value="yes">あり</option>
+          <option value="no">なし</option>
+        </select><label for="offwork-days">（約</label>
+        <select class="offwork-days" name="offwork" id="offwork-days">
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+        <label for="offwork-days">日<span class="slash">/</span>月）</label>
+      </td>
+    </tr>
+    <tr>
+      <td class="dayoff-left" colspan="2"><label for="dayoff">休日</label></td>
+      <td><textarea name="place" id="dayoff"></textarea></td>
+    </tr>
+    <tr>
+      <td class="vacation-left" colspan="2"><label for="vacation">休暇</label></td>
+      <td><textarea name="place" id="vacation"></textarea></td>
+    </tr>
+    <tr>
+      <td class="quit-left" colspan="2"><label for="quit">退職に関する事項</label></td>
+      <td><textarea name="place" id="quit"></textarea></td>
+    </tr>
+    <tr>
+      <td class="salary-left" rowspan="6">賃金</td>
+      <td class="td2"><label for="salary">金額</label></td>
+      <td><textarea name="place" id="salary"></textarea></td>
+    </tr>
+    <tr>
+      <td class="td2">割増賃金率</td>
+      <td>
+        <p class="additional">所定時間外労働:25%</p>
+        <p class="additional">休日労働:35%</p>
+        <p class="additional">深夜労働:25%</p>
+      </td>
+    </tr>
+    <tr>
+      <td class="td2"><label for="paycycle-close">締支払日<br>支払方法</label></td>
+      <td><label for="paycycle-close">毎月</label>
+        <select class="paycycle" name="paycycle" id="paycycle-close">
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="末">末</option>
+        </select><label for="paycycle-close">日締</label>
+        <label for="paycycle-pay"><span class="paycycle-mgl10">毎月</span></label>
+        <select class="paycycle" name="paycycle" id="paycycle-pay">
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="末">末</option>
+        </select><label for="paycycle-pay">日支払</label><br>銀行振込
+      </td>
+    </tr>
+    <tr>
+      <td class="td2-bonus"><label for="bonus">賞与</label></td>
+      <td>
+        <select class="bonus" name="bonus" id="bonus">
+          <option value=""></option>
+          <option value="あり">あり</option>
+          <option value="なし">なし</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td class="td2-salaryIncrease"><label for="salaryIncrease">昇給</label></td>
+      <td>
+        <select class="salaryIncrease" name="salaryIncrease" id="salaryIncrease">
+          <option value=""></option>
+          <option value="あり">あり</option>
+          <option value="なし">なし</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td class="td2-retirementMoney"><label for="retirementMoney">退職金</label></td>
+      <td>
+        <select class="retirementMoney" name="retirementMoney" id="retirementMoney">
+          <option value=""></option>
+          <option value="あり">あり</option>
+          <option value="なし">なし</option>
+        </select>
+      </td>
+    </tr>
+    <tr class="other-tr">
+      <td class="other-left" colspan="2"><label for="other">その他</label></td>
+      <td><textarea name="place" id="other"></textarea></td>
+    </tr>
+  </table>
+  </div>本契約書は、２通作成し、双方が各１通を保管する。
+  <div class="employer">
+    <span class="mgr-10"><label for="employer-place">使用者</label></span>
+    <span class="mgr-10"><label for="employer-place">所在地</label></span>
+    <input class="employer-place" type="text" id="employer-place"><br>
+    <span class="mgr-10"><label for="employer-name">名称</label></span>
+    <input class="employer-name" type="text" id="employer-name"><br>
+    <span class="mgr-10"><label for="employer-represent">職氏名</label></span>
+    <input class="employer-represent" type="text" id="employer-represent">印<br>
+  </div>
+  <div class="employee">
+    <span class="mgr-10"><label for="employee-place">労働者</label></span>
+    <span class="mgr-10"><label for="employee-place" >住所</label></span>
+    <input class="employee-place" type="text" id="employee-place"><br>
+    <span class="mgr-10"><label for="employee-name">氏名</label></span>
+    <input class="employee-name" type="text" id="employee-name">印<br>
+  </div>
+
+  <FORM class="save">
+    <INPUT TYPE="button" class="save_button" value="保存" onClick="window.print();" />
+  </FORM>
+  <FORM class="print">
+    <INPUT TYPE="button" class="print_button" value="印刷" onClick="window.print();" />
+  </FORM>
+</body>
+
+</html>

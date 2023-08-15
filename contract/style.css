@@ -1,0 +1,542 @@
+html {
+  margin-left: 12%;
+  font-family: serif, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  height: 360px;
+  width: 1033px;
+  letter-spacing: 1px;
+}
+
+@media print {
+  .print_button,.example_button,.save_button{
+    display: none;
+  }
+  html{
+    margin-left: 0;
+  }
+}
+
+.comment {
+  margin: 0;
+}
+
+.contract-date {
+  text-align: right;
+}
+
+select.year {
+  margin: 0;
+  width: 16px;
+  font-size: 18px;
+  text-align: center;
+  border: none;
+  appearance: none;
+  margin-left: 16px;
+}
+
+select.month {
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+  border: none;
+  appearance: none;
+  margin-left: 16px;
+}
+
+select.day {
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+  border: none;
+  appearance: none;
+  margin-left: 16px;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+}
+
+.example_button {
+	padding: 18px 32px;
+	font-weight: bold;
+	border: 2px solid #27acd9;
+	color: #27acd9;
+  margin-left: 16px;
+  border-radius: 50px;
+  text-decoration: none;
+}
+.example_button:hover {
+	color: #fff;
+	background: #27acd9;
+}
+
+.save_button {
+	padding: 18px 32px;
+	font-weight: bold;
+	border: 2px solid #27acd9;
+	color: #27acd9;
+  margin-left: 16px;
+  border-radius: 50px;
+  margin-bottom: 16px
+}
+.save_button:hover {
+	color: #fff;
+	background: #27acd9;
+}
+
+.save {
+  display: inline-block;
+}
+
+.print_button {
+	padding: 18px 32px;
+	font-weight: bold;
+	border: 2px solid #27acd9;
+	color: #27acd9;
+  margin-left: 16px;
+  border-radius: 50px;
+}
+.print_button:hover {
+	color: #fff;
+	background: #27acd9;
+}
+
+.print {
+  display: inline-block;
+  margin-left: 18px;
+}
+
+.numberName {
+  text-align: right;
+}
+
+input.numberName {
+  border: none;
+  border-bottom: 0.5px solid black;
+  font-size: 18px;
+  width: 216px;
+  text-align: center;
+  margin: 4px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid black;
+  height: 64px;
+}
+
+.contents {
+  width: 100%;
+  font-size: 18px;
+}
+
+td {
+  border: 0.1px solid black;
+}
+
+select.kind {
+  border: none;
+  appearance: none;
+  font-family: serif, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.period-left {
+  text-align: center;
+}
+
+select.period {
+  border: none;
+  appearance: none;
+  font-family: serif, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+select.startYear {
+  margin: 0;
+  width: 16px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  appearance: none;
+}
+
+select.startMonth {
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  appearance: none;
+}
+
+select.startDay {
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  appearance: none;
+}
+
+select.endYear {
+  margin: 0;
+  width: 16px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  appearance: none;
+}
+
+select.endMonth {
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  appearance: none;
+}
+
+select.endDay {
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  appearance: none;
+}
+
+.radio {
+  width: 16px;
+}
+
+input.radioOther {
+  border: none;
+  width: 86%;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: serif, sans-serif;
+}
+
+.update {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: serif, sans-serif;
+  border: none;
+  appearance: none;
+}
+
+.update-left {
+  text-align: center;
+}
+
+.trial-left {
+  text-align: center;
+}
+
+.place-left {
+  text-align: center;
+}
+
+.job-left {
+  text-align: center;
+}
+
+.workHour-left {
+  text-align: center;
+}
+
+.over-left {
+  text-align: center;
+}
+
+.dayoff-left {
+  text-align: center;
+}
+
+.vacation-left {
+  text-align: center;
+}
+
+.quit-left {
+  text-align: center;
+}
+
+.other-left {
+  text-align: center;
+}
+
+textarea {
+  border: none;
+  resize: none;
+  width: 99%;
+  height: 96px;
+  font-family: serif, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.startHour {
+  margin: 0;
+  width: 32px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  appearance: none;
+  margin-left: 12px;
+}
+
+.startMinute {
+  margin: 0;
+  width: 32px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  appearance: none;
+  margin-left: 12px;
+}
+
+.lastHour {
+  margin: 0;
+  width: 32px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  appearance: none;
+  margin-left: 12px;
+}
+
+.lastMinute {
+  margin: 0;
+  width: 32px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  appearance: none;
+  margin-left: 12px;
+}
+
+.Minute {
+  margin-right: 32px;
+}
+
+.lest {
+  margin: 0;
+  width: 32px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  appearance: none;
+  margin-left: 12px;
+}
+
+select.over {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: serif, sans-serif;
+  text-align: center;
+  border: none;
+  appearance: none;
+}
+
+.over-times {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: serif, sans-serif;
+  text-align: center;
+  border: none;
+  appearance: none;
+}
+
+select.offwork {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: serif, sans-serif;
+  text-align: center;
+  border: none;
+  appearance: none;
+}
+
+.offwork-days {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: serif, sans-serif;
+  text-align: center;
+  border: none;
+  appearance: none;
+  width: 18px;
+}
+
+.over {
+  padding: 4px;
+}
+
+.offwork {
+  padding: 4px;
+  margin-left: 58px;
+}
+
+.additional {
+  margin: 0;
+}
+
+.paycycle {
+  border: none;
+  appearance: none;
+  font-family: serif, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.paycycle-mgl10 {
+  margin-left: 10px;
+}
+
+.salary-left {
+  text-align: center;
+}
+
+.td1 {
+  width: 86px;
+}
+
+.td2 {
+  width: 180px;
+  text-align: center;
+}
+
+.td2-bonus {
+  /* height: 0px; */
+  text-align: center;
+}
+
+.bonus {
+  border: none;
+  appearance: none;
+  font-family: serif, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 16px;
+}
+
+.td2-salaryIncrease {
+  /* height: 0px; */
+  text-align: center;
+}
+
+.salaryIncrease {
+  border: none;
+  appearance: none;
+  font-family: serif, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 16px;
+}
+
+.td2-retirementMoney {
+  text-align: center;
+}
+
+.retirementMoney {
+  border: none;
+  appearance: none;
+  font-family: serif, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 16px;
+}
+
+.mgr-10 {
+  margin-right: 10px;
+}
+
+.employer {
+  text-align: right;
+  line-height: 36px;
+}
+
+.employer-place {
+  border: none;
+  border-bottom: 0.5px solid black;
+  font-family: serif, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  width: 360px;
+  text-align: left;
+  margin: 4px;
+}
+
+.employer-name {
+  border: none;
+  border-bottom: 0.5px solid black;
+  font-family: serif, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  width: 360px;
+  text-align: left;
+  margin: 4px;
+}
+
+.employer-represent {
+  border: none;
+  border-bottom: 0.5px solid black;
+  font-family: serif, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  width: 340px;
+  text-align: left;
+  margin: 4px;
+}
+
+.employee {
+  text-align: right;
+  margin: 36px 0;
+  line-height: 36px;
+}
+
+.employee-place {
+  border: none;
+  border-bottom: 0.5px solid black;
+  font-family: serif, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  width: 360px;
+  text-align: left;
+  margin: 4px;
+}
+
+.employee-name {
+  border: none;
+  border-bottom: 0.5px solid black;
+  font-family: serif, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  width: 340px;
+  text-align: left;
+  margin: 4px;
+}
+
+.while {
+  margin: 0 8px;
+}
+
+.slash {
+  margin: 0 8px;
+}
+
+.other-tr {
+  page-break-before: always;
+}
+
+.radio3mgr {
+  margin-right: 18px;
+}
+
